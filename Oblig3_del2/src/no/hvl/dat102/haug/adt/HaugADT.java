@@ -1,7 +1,6 @@
 package no.hvl.dat102.haug.adt;
 
 
-
 public interface HaugADT <T extends Comparable<T>> {
 	
 	/**
@@ -26,7 +25,7 @@ public interface HaugADT <T extends Comparable<T>> {
     
     
     /**
-     * Avgjør om haugen er tom
+     * Avgjï¿½r om haugen er tom
      * @return true hvis haugen er tom, false ellers
      */
 	 boolean erTom();
